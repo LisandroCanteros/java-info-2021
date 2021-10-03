@@ -1,7 +1,7 @@
 package com.informatorio;
 import java.util.Scanner;
 
-public class Main {
+public class ejercicio1 {
 
     public static void main(String[] args) {
 	String nombre;
