@@ -14,5 +14,17 @@ public class ejercicio2 {
         int resultado = nro1 + nro2;
         System.out.println(String.format("El resultado de %d + %d es %d", nro1, nro2, resultado));
 
+        int resta = nro1 - nro2;
+        System.out.println(String.format("El resultado de %d - %d es %d", nro1, nro2, resta));
+
+        int multiplicacion = nro1 * nro2;
+        System.out.println(String.format("El resultado de %d * %d es %d", nro1, nro2, multiplicacion));
+
+        double division = nro1 / nro2;
+        System.out.println(String.format("El resultado de %d / %d es %.2f", nro1, nro2, division));
+
+        int modulo = nro1 % nro2;
+        System.out.println(String.format("El resultado de %d %% %d es %d", nro1, nro2, modulo));
+
     }
 }
