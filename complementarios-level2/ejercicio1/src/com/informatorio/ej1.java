@@ -20,7 +20,7 @@ public class ej1 {
             op = Integer.parseInt(scan.nextLine());
 
         }
-
+        scan.close();
         for (int i = 0; i < ciudades.size(); i++) {
             System.out.println((i+1) + "# " + ciudades.get(i));
         }
