@@ -18,6 +18,6 @@ public class ej5 {
             resultado += num2;
         }
         System.out.println(String.format("El resultado de hacer %d * %d mediante sumas sucesivas es %d", num1, num2, resultado));
-
+        scan.close();
     }
 }
