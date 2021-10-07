@@ -52,7 +52,7 @@ public class ej6 {
         for (Empleado e : empleados) {
             sueldos.put(e.getDNI(), e.getHoras()*e.getSalarioHora());
         }
-        
+
         for (Map.Entry<Integer, Integer>registro : sueldos.entrySet()) {
             System.out.println(String.format("DNI: %d SUELDO: %d ", registro.getKey(), registro.getValue()));
         }
